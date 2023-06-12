@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import './form.css';
 import { FaExclamationCircle } from 'react-icons/fa';
-// import UserDetails from "./UserDetails";
+
 
 const FormValidation = () => {
   const [name, setName] = useState('');
@@ -61,11 +61,7 @@ const FormValidation = () => {
 
     if (name && age && email) {
       
-      const userDetails = {
-        name,
-        age,
-        email
-      };
+      
 
       
       
