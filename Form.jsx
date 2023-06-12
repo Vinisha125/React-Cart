@@ -61,11 +61,11 @@ const FormValidation = () => {
 
     if (name && age && email) {
       
-      const userDetails = {
-        name,
-        age,
-        email
-      };
+//       const userDetails = {
+//         name,
+//         age,
+//         email
+//       };
 
       
       
